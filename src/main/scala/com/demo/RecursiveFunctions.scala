@@ -1,3 +1,5 @@
+package com.demo
+
 object RecursiveFunctions extends App {
 
   //convert the fibonaaci series method in Tail Recursive

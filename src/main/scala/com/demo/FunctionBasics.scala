@@ -1,3 +1,5 @@
+package com.demo
+
 object FunctionBasics extends App {
 
   //name function
@@ -40,7 +42,9 @@ object FunctionBasics extends App {
 
   println(sum3(2.365478934, 4))
 
+  //anonymous function
 
+  //val mul = (a: Int, b: Int) => a * b
+  //println(s"multiplication of two numbers is: ${mul(3, 4)}")
 
-
-}
+ }

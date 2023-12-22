@@ -1,3 +1,5 @@
+package com.demo
+
 object Functions extends App {
 
   //print even or odd
@@ -35,7 +37,7 @@ object Functions extends App {
     if (n < 1) {
       n
     } else {
-      for (i <- 2 to 8) {
+      for (i <- 2 to n) {
         var sum: Int = a1 + a2
         a1 = a2
         a2 = sum
@@ -67,7 +69,7 @@ object Functions extends App {
     }
 
       }
-  println(nested(3))
+  println(nested(9))
 
   //mod and divisible
 
@@ -88,7 +90,7 @@ def ledger(num: Int): Unit ={
     println("number is not divisible by 2,3 and 5")
   }
 }
-  println(ledger(9))
+  println(ledger(7))
 }
 
 
